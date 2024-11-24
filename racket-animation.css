@@ -1,0 +1,36 @@
+html {
+    height: 100vh;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    color: white;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    max-width: 70vw;
+    width: 70%;
+    height: auto;
+    overflow: visible;
+}
+
+.anim-wrapper {
+    background: url('/padel_playground.png');
+    width: 100%;
+    height: 2000px;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Estilo para el logo */
+.logo {
+    position: absolute;
+    z-index: 30; /* Mayor que el canvas y el fondo */
+    top: 20px; /* Ajusta la posición del logo */
+    left: 20px;
+    width: 150px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
